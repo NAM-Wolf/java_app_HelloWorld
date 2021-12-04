@@ -9,9 +9,9 @@ public class HelloWorld {
     final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
-    System.out.println("Hello, Belarus!");
+    System.out.println("Hello, World!");
     
-    System.out.println("Hello, WOLF!");
+    System.out.println("Hello, Belarus!");
     
     System.out.println("The current time is " + dtf.format(now));
   }
