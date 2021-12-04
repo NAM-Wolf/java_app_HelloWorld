@@ -13,7 +13,7 @@ public class HelloWorld {
     
     System.out.println("Hello, WOLF!");
     
-    System.out.println("The current time is " + dtf.format(now))
+    System.out.println("The current time is " + dtf.format(now));
   }
 
 }
